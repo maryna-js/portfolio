@@ -29,17 +29,27 @@ header {
   margin-top: 40px;
 }
 
-.photo {
-  float: left;
+.header_container {
+  display: flex;
+}
+
+.header_container--descr {
+  margin-left: 8%;
+}
+
+.header_container--img_photo {
   width: 200px;
   height: auto;
-  margin: 0 40px 40px 30px;
   border-radius: 50%;
 }
 
-.social-list li {
-  display: inline-block;
-  float: right;
+ul.header_container--descr_social-list {
+  display: flex;
+  margin-left: -5%;
+}
+
+.header_container--descr_social-list li {
+  list-style-type: none;
 }
 
 .item-social {
@@ -54,6 +64,11 @@ header {
   color: #495057;
   background: #9995;
   border-radius: 50%;
+}
+
+.ico-facebook:hover {
+  color: #ffffff;
+  background: #0077AF;
 }
 
 .ico-github:hover {
@@ -81,43 +96,42 @@ h1 span {
   color: #5b5959;
 }
 
-.header-subtitle {
-  margin-left: 270px;
-  width: 750px;
+.header_container--header_subtitle {
+  width: 100%;
   color: #E1E4E8;
 }
 
-ul.contact-list {
+ul.header_container--contact_list {
   margin-left: -40px;
 }
 
-.contact-list {
+.header_container--contact_list {
   float: left;
   width: 600px;
   height: 25px;
 }
 
-.contact-list li {
+.header_container--contact_list li {
   display: inline-block;
   margin: 5px;
 }
 
-.item-contact {
+.header_container--contact_list-item_contact {
   margin: 3px;
   font-size: 16px;
   color: #495057;
 }
 
-.item-contact:hover {
+.header_container--contact_list-item_contact:hover {
   color: #0077af;
 }
 
-.item-contact a {
+.header_container--contact_list-item_contact a {
   font-size: 16px;
   color: #495057;
 }
 
-.item-contact a:hover {
+.header_container--contact_list-item_contact a:hover {
   color: #0077af;
 }
 
@@ -125,7 +139,7 @@ ul.contact-list {
   margin-right: 5px;
 }
 
-.summary {
+.header_container--summary {
   float: left;
   width: 750px;
   font-size: 14px;
