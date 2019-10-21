@@ -1,0 +1,1185 @@
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('../assets/fonts/LucidaSans.eot');
+    src: url('../assets/fonts/LucidaSans.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/LucidaSans.woff2') format('woff2'),
+    url('../assets/fonts/LucidaSans.woff') format('woff'),
+    url('../assets/fonts/LucidaSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Segoe WP';
+    src: url('../assets/fonts/SegoeWP.eot');
+    src: url('../assets/fonts/SegoeWP.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/SegoeWP.woff2') format('woff2'),
+    url('../assets/fonts/SegoeWP.woff') format('woff'),
+    url('../assets/fonts/SegoeWP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'LucidaSans-Italic';
+    src: url('../assets/fonts/LucidaSans-Italic.eot');
+    src: url('../assets/fonts/LucidaSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/LucidaSans-Italic.woff2') format('woff2'),
+    url('../assets/fonts/LucidaSans-Italic.woff') format('woff'),
+    url('../assets/fonts/LucidaSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'Asap';
+    src: url('../assets/fonts/Asap-Regular.eot');
+    src: url('../assets/fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Asap-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Asap-Regular.woff') format('woff'),
+    url('../assets/fonts/Asap-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'SegoeWP';
+    src: url('../assets/fonts/SegoeWP-Light.eot');
+    src: url('../assets/fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/SegoeWP-Light.woff2') format('woff2'),
+    url('../assets/fonts/SegoeWP-Light.woff') format('woff'),
+    url('../assets/fonts/SegoeWP-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url('../assets/fonts/ptsans/PTSans-CaptionBold.eot');
+    src: url('../assets/fonts/ptsans/PTSans-CaptionBold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/ptsans/PTSans-CaptionBold.woff2') format('woff2'),
+    url('../assets/fonts/ptsans/PTSans-CaptionBold.woff') format('woff'),
+    url('../assets/fonts/ptsans/PTSans-CaptionBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('../assets/fonts/ptsans/PTSans-NarrowBold.eot');
+    src: url('../assets/fonts/ptsans/PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/ptsans/PTSans-NarrowBold.woff2') format('woff2'),
+    url('../assets/fonts/ptsans/PTSans-NarrowBold.woff') format('woff'),
+    url('../assets/fonts/ptsans/PTSans-NarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url('../assets/fonts/ptsans/PTSans-Caption.eot');
+    src: url('../assets/fonts/ptsans/PTSans-Caption.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/ptsans/PTSans-Caption.woff2') format('woff2'),
+    url('../assets/fonts/ptsans/PTSans-Caption.woff') format('woff'),
+    url('../assets/fonts/ptsans/PTSans-Caption.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../assets/fonts/ptsans/PTSans-BoldItalic.eot');
+    src: url('../assets/fonts/ptsans/PTSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/ptsans/PTSans-BoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/ptsans/PTSans-BoldItalic.woff') format('woff'),
+    url('../assets/fonts/ptsans/PTSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../assets/fonts/ptsans/PTSans-Bold.eot');
+    src: url('../assets/fonts/ptsans/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/ptsans/PTSans-Bold.woff2') format('woff2'),
+    url('../assets/fonts/ptsans/PTSans-Bold.woff') format('woff'),
+    url('../assets/fonts/ptsans/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../assets/fonts/ptsans/PTSans-Regular.eot');
+    src: url('../assets/fonts/ptsans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/ptsans/PTSans-Regular.woff2') format('woff2'),
+    url('../assets/fonts/ptsans/PTSans-Regular.woff') format('woff'),
+    url('../assets/fonts/ptsans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('../assets/fonts/ptsans/PTSans-Narrow.eot');
+    src: url('../assets/fonts/ptsans/PTSans-Narrow.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/ptsans/PTSans-Narrow.woff2') format('woff2'),
+    url('../assets/fonts/ptsans/PTSans-Narrow.woff') format('woff'),
+    url('../assets/fonts/ptsans/PTSans-Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Italic.eot');
+    src: url('assets/fonts/ptsans/PTSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Italic.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Italic.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-BoldItalic.eot');
+    src: url('assets/fonts/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-BoldItalic.woff') format('woff'),
+    url('assets/fonts/SegoeUI-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Bold.eot');
+    src: url('assets/fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Bold.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Italic.eot');
+    src: url('assets/fonts/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Italic.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Italic.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI.eot');
+    src: url('assets/fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI.woff') format('woff'),
+    url('assets/fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Light.eot');
+    src: url('assets/fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Light.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Light.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'),
+    url('assets/fonts/open-sans/opensans.woff2') format('woff2'),
+    url('assets/fonts/open-sans/opensans.woff') format('woff'),
+    url('assets/fonts/open-sans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    font-family: "TitilliumWeb", "Sans-Serif";
+    width: 1300px;
+    margin: 0 auto;
+    font-size: 10px;
+    background:#ffffff;
+}
+
+.wrapper {
+    width: 1300px;
+    height: 566px;
+    background-image: url(../assets/images/background-video.png);
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 168px;
+}
+
+.logo {
+    display:flex;
+    margin: 32px 0 0 141px;
+}
+
+.logo-image {
+    height: 79px;
+    width: 79px;
+    background-image: url(../assets/images/logo_layer0.svg);
+}
+
+.logotext h1 a {
+    display: block;
+    margin: -53px 0 0 10px;
+    text-decoration: none;
+    font-family: 'LucidaSans-Italic', MyriadPro-Regular;
+    font-size: 41px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+
+.logotext h1 a:hover {
+    color: #f5c506;
+}
+
+.navbar {
+    width: 453px;
+    margin: 62px 140px 0 0;
+}
+
+.navbar ul {
+    display:flex;
+    justify-content: space-between;
+    background-image: url(../assets/images/background-nav.png);
+    box-shadow: -4px -4px 0px 0px rgba(245,197,6,0.29), -8px -8px 0px 0px rgba(245,197,6,0.19);
+}
+
+.navbar ul li {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navbar ul li + li {
+    padding: 0 0 0 14px;
+    border-left: 1px solid #b99403;
+}
+
+.navbar ul li a {
+    display: flex;
+    height: 41px;
+    font-family: SegoeWP, MyriadPro-Regular;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgba(155, 125, 8, 255);
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a:hover {
+    color: rgb(255,255,255);
+}
+
+.navbar ul li:nth-child(3) {
+    padding: 0 25px 0 18px;
+}
+
+.navbar ul li img {
+    margin: 12px 10px 0 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-arrow {
+    margin-top: 125px;
+}
+
+.left-arrow button {
+    width: 32px;
+    height: 57px;
+    background-image: url(../assets/images/left-arrow.png);
+    border: 0;
+    transition: 0.3s;
+}
+
+.left-arrow button:hover {
+    opacity: 0.6;
+}
+
+.video-banner video {
+    object-fit: none;
+    object-position: 50% 50%;
+}
+
+.right-arrow {
+    margin-top: 125px;
+}
+
+.right-arrow button {
+    width: 32px;
+    height: 57px;
+    background-image: url(../assets/images/right-arrow.png);
+    border: 0;
+    transition: 0.3s;
+}
+
+.right-arrow button:hover {
+    opacity: 0.6;
+}
+
+.video-banner {
+    position: relative;
+    margin: -5px -0 0 70px;
+}
+
+.button-play button {
+    position: absolute;
+    top: 128px;
+    left: 238px;
+    background-image: url(../assets/images/play-button-main.png);
+    background-color: rgba(0, 0, 0, 0);
+    width:67px;
+    height: 67px;
+    border: 0;
+    border-radius: 50%;
+}
+
+  .button-play button:hover {
+    opacity: 0.6;
+}
+
+.text-banner {
+    width: 398px;
+    margin: 18px 78px 0 0;
+}
+
+.text-banner h2 {
+    font-family: Asap, MyriadPro-Regular;
+    font-size: 63px;
+    letter-spacing: 1px;
+    color: #f5c506;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-banner h2 span {
+    color: #ffffff;
+}
+
+.icon {
+    height: 212px;
+    width: 100%;
+    background-image: url(../assets/images/background-icon.png);
+}
+
+.wrapper-icon {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-end;
+    height: 100%;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 350px;
+    margin-top: 61px;
+}
+
+.custom {
+    margin: 38px -23px 0 8px;
+}
+
+.icon-text-design {
+    margin: -41px -0px 0px -25px;
+}
+
+.icon-item p {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+}
+
+.icon-text-custom {
+    margin: -43px 0 0 -21px;
+}
+
+.free {
+    margin: 53px 10px 0 0;
+}
+
+.icon-text-free {
+    margin: -42px 0 0 -6px;
+}
+
+.icon-item::after {
+    position: absolute;
+    top: 0;
+    left: 138px;
+    content: '';
+    width: 0;
+    height: 210px;
+    border: 1px solid #d4d4d4;
+}
+
+.custom::after {
+    content: '';
+    width: 0;
+    height: 210px;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    top: 0;
+    left: 480px; 
+}
+
+.free:after {
+    content: '';
+    width: 0;
+    height: 210px;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    top: 0;
+    left: 818px; 
+}
+
+.icon-text-free:after {
+    content: '';
+    width: 0;
+    height: 210px;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    top: 0;
+    left: 1158px; 
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    background-image: url(../assets/images/background-calendar.png);
+    height: 509px;
+    width: 100%;
+}
+
+.calendar-title {
+    height: 123px;
+}
+
+.calendar-title h3 {
+    margin: 33px 0 0 145px;
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.calendar-blocks {
+    height: 233px;
+}
+
+.calendar-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calendar-block-one {
+    width: 341px;
+    height: 233px;
+    background: #ec9e03;
+}
+
+.calendar-block-one-text {
+    height: 174px;
+}
+
+.calendar-block-one-text p {
+    margin: 15px 0 0px 29px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "SegoeWP";
+    font-weight: 200;
+}
+
+.calendar-block-one-text p span {
+    word-wrap: normal;
+}
+
+.calendar-block-one-btn {
+    text-align: right;
+    margin: 21px 14px 0 0;
+}
+
+.calendar-block-one-btn button,
+.calendar-block-three button {
+    height: 11px;
+    width: 11px;
+    background: rgba(0, 0, 0, 0);
+    background-image: url(../assets/images/plus.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.calendar-block-one-btn button:hover {
+    opacity: 0.6;
+}
+
+.calendar-block-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 233px;
+    width: 329px;
+    margin: 0 0 0 34px;
+    background: #ec9e03;
+    background-image: url(../assets/images/twitter.png);
+    background-position: right 83px bottom 40px;
+    background-repeat: no-repeat;
+}
+
+.calendar-block-two {
+    position: relative;
+}
+
+.calendar-block-two-play {
+    position: absolute;
+    top: 94px;
+    left: 127px;
+    background-image: url(../assets/images/play-button-2.png);
+    background-color: rgba(0, 0, 0, 0);
+    width:61px;
+    height: 61px;
+    border: 0;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.calendar-block-two button:hover {
+    opacity: 0.6;
+}
+
+.calendar-block-three p {
+    margin: 14px 17px 0 0;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "SegoeWP";
+    font-weight: 200;
+}
+
+.calendar-block-three button {
+    margin: 0 10px 12px 0;
+}
+
+.calendar-block-three button:hover {
+    opacity: 0.6;
+} 
+
+.tweet-wrapper {
+   display: none;
+}
+
+.calendar-date {
+    height: 95px;
+    width: 113px;
+    margin-left: 140px;
+    word-wrap: normal;
+    background: #ddb101;
+}
+
+.calendar-date p {
+    margin: 18px 0 0 30px;
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.calendar-date span {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    font-weight: 200;
+}
+
+.calendar-slider-input {
+    margin-top: 10px;
+    width: 69%;
+    height: 74px;
+    line-height: 98px;
+    text-align: center;
+}
+
+input[type=range] {
+    height: 15px;
+    -webkit-appearance: none;
+    margin: 20px 0 0 212px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #50555C;
+    background: #FAE180;
+    border-radius: 14px;
+    border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 15px;
+    width: 197px;
+    border-radius: 7px;
+    background: #EC9E03;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 0px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #FAE180;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #50555C;
+    background: #FAE180;
+    border-radius: 14px;
+    border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 0px solid #000000;
+    height: 15px;
+    width: 50px;
+    border-radius: 7px;
+    background: #EC9E03;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 15px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #FAE180;
+    border: 0px solid #000000;
+    border-radius: 28px;
+    box-shadow: 1px 1px 1px #50555C;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #FAE180;
+    border: 0px solid #000000;
+    border-radius: 28px;
+    box-shadow: 1px 1px 1px #50555C;
+}
+
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 0px solid #000000;
+    height: 15px;
+    width: 50px;
+    border-radius: 7px;
+    background: #EC9E03;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #FAE180;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #FAE180;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 499px;
+    width: 100%;
+    background-image: url(../assets/images/background-features.png);
+}
+
+.features h4 {
+    margin: 0 0 0 4px;
+    line-height: 124px;
+    height: 137px;
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feat-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    height:265px;
+    width: 80%;
+}
+
+.feat-desktop {
+    position: relative;
+    height: 255px;
+    width: 323px;
+    margin: 0 0 10px 12px;
+    background-image: url(../assets/images/desktop.png);
+}
+
+.feat-free-item {
+    position: absolute;
+    top: -46px;
+    left: -19px;
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    background-color: #f5c506;
+}
+
+.feat-free-item p {
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    text-align: center;
+    line-height: 83px;
+    text-transform: uppercase;
+}
+
+.feat-tablet {
+    height: 173px;
+    width: 129px;
+    margin: 0 0 8px 0;
+    background-image: url(../assets/images/tablet.png);
+}
+
+.feat-mobile {
+    height: 63px;
+    width: 39px;
+    margin: 103px 51px 0px 0;
+    background-image: url(../assets/images/mobile.png);
+}
+
+.feat-list-items li {
+    position: relative;
+    font-size: 22px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.feat-list-items li span {
+    word-wrap: normal
+}
+
+.feat-list {
+    width: 386px;
+    height: 203px;
+}
+
+.feat-list ul {
+    list-style: none;
+    line-height: 20px;
+}
+
+.feat-list-items li::before {
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    left: 6px;
+    content: "\2022";
+    color:#f5c506;
+    font-size: 57px;
+    font-weight: bold;
+    line-height: 53px;
+    width: 38px;
+    margin-left: -44px;
+}
+
+.footer {
+    display: flex;
+    height: 64px;
+    width: 100%;
+    background-image: url(../assets/images/background-footer.png);
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+}
+
+.footer-logo-txt a {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    line-height: 64px;
+}
+
+.footer-logo-img {
+    margin: 7px 0 0 146px;
+}
+
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 640px;
+    }
+
+    .wrapper {
+        width: 640px;
+        height: 389px;
+        border-image: none;
+    }
+
+    header {
+        height: 62px;
+    } 
+
+    .logo {
+        align-items: center;
+        margin: 0 0;
+        width: 186px;
+        background-image: url(../assets/images/background-logo-mob.png);
+    }
+
+    .logo-image {
+        margin-left: 9px;
+        height: 41px;
+        width: 43px;
+        background-image: url(../assets/images/logo-mobile.svg);
+    }
+
+    .logotext h1 a {
+        margin: 0 0 0 6px;
+        font-size: 19px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-style: italic;
+        text-align: center;
+    }
+
+    .navbar {
+        margin: 0 0;
+        width: 460px;
+        height: 62px;
+        background-color: #f5c506;
+    }
+
+    .navbar ul {
+        
+        background-image: none;
+        box-shadow: none;
+    }
+
+    .navbar ul li a {
+        height: 44px;
+    }
+
+    .navbar ul li + li {
+        padding: 0 0 0 24px;
+    }
+
+    .navbar ul li:nth-child(3) {
+        padding: 0 39px 0 18px;
+    }
+
+    .navbar ul li img {
+        margin: 11px 8px 0px -12px;
+    }
+
+    .text-banner,
+    .right-arrow,
+    .left-arrow {
+        display: none;
+    }
+
+    .video-banner {
+        margin: 0 0;
+    }
+
+    .video-banner video {
+        width: 640px;
+        height: 327px;
+        object-position: 0 0;
+    }
+
+    .button-play button {
+        top: 127px;
+        left: 288px;
+    }
+
+    .icon {
+        width: 640px;
+        height: 174px;
+    }
+
+    .icon-item {
+        margin: 24px 0 0 34px;
+    }
+
+    .icon-item p {
+        font-size: 24px;
+    }
+
+    .icon-text-design {
+        margin: -35px -0px 0px -20px;
+    }
+
+    .custom {
+        margin: 15px 0px 0px 91px;
+    }
+
+    .icon-text-custom {
+        margin: -52px 0 0 -15px;
+    }
+
+    .free {
+        margin: 23px 0 0 42px;
+    }
+
+    .icon-text-free {
+        margin: -44px 0 0 11px;
+    }
+
+    .icon-item::after,
+    .custom::after,
+    .free:after,
+    .icon-text-free:after {
+        display:none;
+    }
+
+    .calendar-container {
+        flex-direction: row;
+        width: 640px;
+        height: 483px;
+        background-image: none;
+    }
+
+    .calendar-title,
+    .calendar-date,
+    .calendar-slider-input,
+    .calendar-block-one-text-number,
+    .three,
+    .feat-list {
+        display: none;
+    }
+
+    .calendar-blocks {
+        display: flex; 
+        flex-direction: row;
+        width: 640px;
+        flex-wrap: wrap;
+    }
+
+    .calendar-block-one {
+        width: 299px;
+        height: 232px;
+        margin: 6px 0 0 0;
+    }
+
+    .calendar-block-one-text {
+        width: 279px;
+        font-size: 29px;
+        letter-spacing: 0px;
+        line-height: 33px;
+        color: #ffffff;
+        font-family: "Segoe WP";
+        font-weight: 300;
+    }
+
+    .calendar-block-one-text p {
+        line-height: 33px;
+    }
+
+    .calendar-block-one-btn {
+        margin: 17px 14px 0 0;
+    }
+
+    .calendar-block-two {
+        width: 315px;
+        height: 232px;
+        margin: 5px 0 11px 5px;
+    }
+
+    .calendar-block-three {
+        width: 100%;
+        height: 235px;
+        margin: 0;
+        background-position: left 80px bottom 40px;
+        background: #f5c507;
+        background-image: url(../assets/images/twitter.png);
+        background-position: left 80px bottom 40px;
+        background-repeat: no-repeat;
+    }
+
+    .tweet-wrapper {
+        display: block;
+        width: 323px;
+        height: 233px;
+        margin-top: 9px;
+    }
+
+    .tweet-one {
+        height: 42px;
+        background-image: url(../assets/images/tweet-one.png);
+        background-repeat: no-repeat;
+    }
+
+    .tweet-next {
+        height: 42px;
+        background-image: url(../assets/images/tweet-next.png);
+        background-repeat: no-repeat;
+    }
+
+    .tweet-wrapper p {
+        height: 27px;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #8f8e8e;
+        font-family: "Arial";
+        padding: 9px 0px 0 34px;
+    }
+
+    form {
+        margin: 13px 0 0 18px;
+    }
+
+    input[type=text] {
+        width: 270px;
+        height: 23px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.15);
+    }
+
+    input[type=submit] {
+        margin-left: -69px;
+        height: 29px;
+        width: 69px;
+        background-image: url(../assets/images/background-submit.png);
+        background-repeat: no-repeat;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 0;
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Arial";
+    }
+
+    .features,
+    .footer {
+        width: 640px;
+    }
+
+    .features {
+        height: 462px;
+    }
+
+    .footer {
+        height: 62px;
+    }
+
+    .features h4 {
+        line-height: 110px;
+        margin: 0 8px 0 0;
+    }
+
+    .feat-wrapper {
+        height: 279px;
+    }
+
+    .feat-desktop {
+        margin: 9px 0 0px -9px;
+    }
+
+    .feat-tablet {
+        margin: 0 13px 0 8px;
+    }
+
+    .feat-mobile {
+        margin: 116px -21px 0px 0;
+    }
+
+    .feat-free-item {
+        top: -43px;
+        left: -33px;
+    }
+
+    .footer-logo-img img {
+        width: 29px;
+    }
+
+    .footer-logo-txt a {
+        font-size: 17px;
+        line-height: 46px;
+    }
+
+    .footer-logo-img {
+        margin: -2px 11px 0 65px;
+    }
+}
