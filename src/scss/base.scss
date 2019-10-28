@@ -135,12 +135,18 @@ img {
                 border-bottom: 1px solid #E1E4E8;
                 cursor: pointer;
             }
-            & button:focus {
-                opacity: 0.5;
+            &-collapsible:focus {
+                background: rgba(128,128,128, 0.5);
+                background-image: url(./../assets/img/double-down.png);
+                background-repeat: no-repeat;
+                background-position: 95% 0;
                 border: 0;
             }
-            & button:hover {
-                opacity: 0.5;
+            &-collapsible:hover {
+                background: rgba(128,128,128, 0.5);
+                background-image: url(./../assets/img/double-down.png);
+                background-repeat: no-repeat;
+                background-position: 95% 0;
                 border: 0;
             }
         }
