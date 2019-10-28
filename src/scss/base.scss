@@ -1,0 +1,172 @@
+@import './_normalize';
+@import './typography';
+
+html {
+    font-size: 10px;
+    font-family: FuturaDemiC, serif;
+}
+
+body {
+    min-height: 100vh;  
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 2rem 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    &--img {
+        height: 200px;
+        width: 14%;
+        &_photo {
+            height: 100%;
+            width: 100%;
+            background-image: url(./../assets/img/photo-rastargueva.jpeg);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+        }
+    }
+    &--descr {
+        width: 80%;
+        & h1 {
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 1.5;
+            text-align: left;
+            color: #333333;
+        }
+        &_social {
+            & ul {
+                display: flex;
+                margin-left: -25px;
+                & li {
+                    list-style-type: none;
+                    & a {
+                        display: flex;
+                        width: 40px;
+                        height: 40px;
+                        margin: 3px;
+                        font-size: 16px;
+                        text-decoration: none;
+                        justify-content: center;
+                        align-items: center;
+                        color: #495057;
+                        background: #9995;
+                        border-radius: 50%;
+                    }
+                    & a:hover {
+                        color: #ffffff;
+                        background: #555555;
+                    }
+                }
+            }
+        }
+    }
+    &--contact {
+        & ul {
+            display: flex;
+            margin-left: -25px;
+            & li {
+                list-style-type: none;
+                & a {
+                    font-size: 14px;
+                    margin-right: 10px;
+                    text-decoration: none;
+                    color: #495057;
+                    & i {
+                        font-size: 16px;
+                        color: #495057;
+                    }
+                }
+                & a:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+    &--summary {
+        font-size: 14px;
+        font-style: italic;
+        text-align: justify;
+        color: #999999;
+    }
+}
+
+.education {
+    &--drop_down {
+        &_heading {
+            display: flex;
+            justify-content: space-between;
+            height: 32px;
+            background: #F4F4F4;
+            border-top: 1px solid #E1E4E8;
+            border-bottom: 1px solid #E1E4E8;
+            &-collapsible {
+                width: 100%;
+                height: 32px;
+                font-size: 15px;
+                font-weight: 600;
+                text-align: left;
+                padding-left: 20px;
+                background: #F4F4F4;
+                background-image: url(./../assets/img/double-down.png);
+                background-repeat: no-repeat;
+                background-position: 95% 0;
+                border: 0;
+                border-top: 1px solid #E1E4E8;
+                border-bottom: 1px solid #E1E4E8;
+                cursor: pointer;
+            }
+            & button:focus {
+                opacity: 0.5;
+                border: 0;
+            }
+            & button:hover {
+                opacity: 0.5;
+                border: 0;
+            }
+        }
+    }
+    &--container {
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        &-card {
+            display: flex;
+            width: 100%;
+            border-bottom: 1px solid #ececec;
+            &_top {
+                width: 30%;
+                margin: 0 35px 0 20px;
+                font-size: 14px;
+                p {
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #414146;
+                }
+            }
+            &_bottom {
+                width: 70%;
+                font-size: 14px;
+            }
+        }
+    }
+}
