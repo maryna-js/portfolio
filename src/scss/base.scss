@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    min-height: 100vh;  
+    //min-height: 100vh;  
 }
 
 .container {
@@ -30,23 +30,21 @@ img {
     height: auto;
 }
 
-.header_container {
+.header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2%;
     &--img {
         height: 200px;
         width: 14%;
-        &_photo {
-            height: 100%;
-            width: 100%;
-            background-image: url(./../assets/img/photo-rastargueva.jpeg);
-            background-repeat: no-repeat;
-            background-position: 0 0;
-        }
+        background-image: url(./../assets/img/photo-rastargueva.jpeg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
     }
     &--descr {
         width: 80%;
-        & h1 {
+        &_heading {
             font-weight: 900;
             font-size: 22px;
             line-height: 1.5;
@@ -81,7 +79,7 @@ img {
         }
     }
     &--contact {
-        & ul {
+        &_list {
             display: flex;
             margin-left: -25px;
             & li {
@@ -112,6 +110,7 @@ img {
 
 .education {
     &--drop_down {
+        margin-bottom: 2%;
         &_heading {
             display: flex;
             justify-content: space-between;
@@ -172,6 +171,190 @@ img {
             &_bottom {
                 width: 70%;
                 font-size: 14px;
+            }
+        }
+    }
+}
+.slider {
+    max-width: 1440px;
+    &--heading {
+        height: 32px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: left;
+        line-height: 32px;
+        padding-left: 20px;
+        background: #F4F4F4;
+        border-top: 1px solid #E1E4E8;
+        border-bottom: 1px solid #E1E4E8;
+    }
+}
+
+.carousel {
+    position: relative;
+    top: 33vh;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    &--item_container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    &--item {
+        display: none;
+        position: relative;
+        margin: 0 auto;
+        animation: 0.5s ease-in-out;
+        &_description {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 15%;
+            font-size: 3.2rem;
+            border: 2px solid black;
+            &-project {
+                &_name {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: 10px;
+                &_txt {
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: left;
+                    color: #495057;
+                }
+                &_butt {
+                    width: 80%;
+                    font-size: 15px;
+                    background: #F4F4F4;
+                    color: #495057;
+                    border: 1px solid #495057;
+                }
+            }
+            &_img {
+                width: 80%;
+            }
+        }
+        }
+    }    
+}
+
+.active,
+.next {
+    display: block;
+}
+
+.next {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    cursor: pointer;
+}
+
+.control.left {
+    left: 0;
+    right: auto;
+}
+
+.control.right {
+    right: 0;
+    left: auto;
+}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+}
+
+.to-left {
+    animation-name: left;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.from-right {
+    animation-name: right;
+}
+
+@keyframes left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .description {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        &--img {
+            width: 100%;
+            background-position: 50% 0;
+        }
+        &--descr {
+            width: 100%;
+            &_heading {
+                margin: 1rem 2rem;
+            }
+        }
+        &--contact {
+            &_list {
+                flex-direction: column;
+            }
+        }
+    }
+    .arrow {
+        display: none;
+    }
+    .carousel {
+        &--item {
+            &_description {
+                border: 0;
+                &-project {
+                    &_name {
+                        display: none;
+                    }
+                    &_img {
+                        width: 100%;
+                    }
+                }
             }
         }
     }
