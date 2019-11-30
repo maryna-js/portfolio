@@ -6,10 +6,6 @@ html {
     font-family: FuturaDemiC, serif;
 }
 
-body {
-    //min-height: 100vh;  
-}
-
 .container {
     position: relative;
     margin: 0 auto;
@@ -226,7 +222,7 @@ img {
                     color: #495057;
                 }
                 &_butt {
-                    width: 80%;
+                    width: 60%;
                     font-size: 15px;
                     background: #F4F4F4;
                     color: #495057;
@@ -234,7 +230,7 @@ img {
                 }
             }
             &_img {
-                width: 80%;
+                width: 100%;
             }
         }
         }

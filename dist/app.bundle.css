@@ -569,13 +569,13 @@ img {
           text-align: left;
           color: #495057; }
         .carousel--item_description-project_name_butt {
-          width: 80%;
+          width: 60%;
           font-size: 15px;
           background: #F4F4F4;
           color: #495057;
           border: 1px solid #495057; }
       .carousel--item_description-project_img {
-        width: 80%; }
+        width: 100%; }
 
 .active,
 .next {
