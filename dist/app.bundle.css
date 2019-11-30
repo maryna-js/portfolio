@@ -576,6 +576,8 @@ img {
           border: 1px solid #495057; }
       .carousel--item_description-project_img {
         width: 100%; }
+      .carousel--item_description-project_img:hover {
+        opacity: 0.7; }
 
 .active,
 .next {
