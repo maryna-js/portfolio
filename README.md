@@ -1,5 +1,7 @@
 # portfolio
+link https://eager-wright-ac1f76.netlify.com/
 
+Project in folder dist
 
 ## Getting Started
 
@@ -14,12 +16,6 @@ To install the app please do the following commands
 git clone
 ```
 
-```
-npm install
-```
-```
-yarn build
-```
 ```
 yarn start
 ```
